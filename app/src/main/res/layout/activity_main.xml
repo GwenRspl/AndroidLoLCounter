@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/GlobalLayout"
+    tools:context="com.example.android.lolcounter.MainActivity">
+
+    <LinearLayout
+        style="@style/FirstLinearLayout">
+
+        <LinearLayout
+            style="@style/ScoreLayout">
+
+
+            <TextView
+                style="@style/TeamName"
+                android:drawableTop="@drawable/nexus_blue_medium"
+                android:textColor="@color/blue"
+                android:text="@string/blue_team"/>
+
+            <TextView
+                style="@style/KillText"
+                android:text="@string/kills"/>
+
+            <TextView
+                android:id="@+id/blue_kill_score"
+                style="@style/Score"
+                android:text="@string/score"/>
+
+            <LinearLayout
+                style="@style/SubButtonsLayout">
+
+                <TextView
+                    style="@style/BaronDragonText"
+                    android:text="@string/barons"/>
+
+                <TextView
+                    style="@style/BaronDragonText"
+                    android:text="@string/dragons"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SubButtonsLayout">
+
+                <TextView
+                    android:id="@+id/blue_baron_score"
+                    style="@style/BaronDragonScore"
+                    android:text="@string/score"/>
+
+
+                <TextView
+                    android:id="@+id/blue_dragon_score"
+                    style="@style/BaronDragonScore"
+                    android:text="@string/score"/>
+
+            </LinearLayout>
+
+            <Button
+                style="@style/BlueButton"
+                android:onClick="blueKill"
+                android:text="@string/kill"/>
+
+            <LinearLayout
+                style="@style/SubButtonsLayout">
+
+                <Button
+                    style="@style/BlueSubButtons"
+                    android:onClick="blueBaron"
+                    android:text="@string/baron"/>
+
+                <Button
+                    style="@style/BlueSubButtons"
+                    android:onClick="blueDragon"
+                    android:text="@string/dragon"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            style="@style/View"/>
+
+        <LinearLayout
+            style="@style/ScoreLayout">
+
+
+            <TextView
+                style="@style/TeamName"
+                android:drawableTop="@drawable/nexus_red_medium"
+                android:textColor="@color/red"
+                android:text="@string/red_team"/>
+
+            <TextView
+                style="@style/KillText"
+                android:text="@string/kills"/>
+
+            <TextView
+                android:id="@+id/red_kill_score"
+                style="@style/Score"
+                android:text="@string/score"/>
+
+            <LinearLayout
+                style="@style/SubButtonsLayout">
+
+                <TextView
+                    style="@style/BaronDragonText"
+                    android:text="@string/barons"/>
+
+                <TextView
+                    style="@style/BaronDragonText"
+                    android:text="@string/dragons"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SubButtonsLayout">
+
+                <TextView
+                    android:id="@+id/red_baron_score"
+                    style="@style/BaronDragonScore"
+                    android:text="@string/score"/>
+
+                <TextView
+                    android:id="@+id/red_dragon_score"
+                    style="@style/BaronDragonScore"
+                    android:text="@string/score"/>
+
+            </LinearLayout>
+
+            <Button
+                style="@style/RedButton"
+                android:onClick="redKill"
+                android:text="@string/kill"/>
+
+            <LinearLayout
+                style="@style/SubButtonsLayout">
+
+                <Button
+                    style="@style/RedSubButtons"
+                    android:onClick="redBaron"
+                    android:text="@string/baron"/>
+
+                <Button
+                    style="@style/RedSubButtons"
+                    android:onClick="redDragon"
+                    android:text="@string/dragon"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        style="@style/ResetButton"
+        android:onClick="resetScores"
+        android:text="@string/reset"/>
+
+</RelativeLayout>

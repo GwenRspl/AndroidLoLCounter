@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoLCounter</string>
+    <string name="blue_team">Blue Team</string>
+    <string name="score">0</string>
+    <string name="kills">Kills</string>
+    <string name="barons">Barons</string>
+    <string name="dragons">Dragons</string>
+    <string name="kill">kill</string>
+    <string name="baron">baron</string>
+    <string name="dragon">dragon</string>
+    <string name="red_team">Red Team</string>
+    <string name="reset">New Game</string>
+</resources>

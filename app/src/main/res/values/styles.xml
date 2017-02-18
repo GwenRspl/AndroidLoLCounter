@@ -1,0 +1,131 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="GlobalLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="FirstLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/team_margin</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+    <style name="TeamName">
+        <item name="android:textSize">@dimen/team_name_textSize</item>
+        <item name="android:textColor">@color/teamNameColor</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="KillText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_vertical</item>
+        <item name="android:textSize">@dimen/score_name_textSize</item>
+        <item name="android:textColor">@color/teamNameColor</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Score">
+        <item name="android:textSize">@dimen/score_textSize</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/team_margin</item>
+    </style>
+
+    <style name="BaronDragonText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_vertical</item>
+        <item name="android:textSize">@dimen/score_name_textSize</item>
+        <item name="android:textColor">@color/teamNameColor</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="BaronDragonScore">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/subscore_textSize</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="BlueButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_vertical</item>
+        <item name="android:backgroundTint">@color/blue</item>
+    </style>
+
+    <style name="RedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_vertical</item>
+        <item name="android:backgroundTint">@color/red</item>
+    </style>
+
+    <style name="SubButtonsLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="BlueSubButtons">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/blue</item>
+    </style>
+
+    <style name="RedSubButtons">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/red</item>
+    </style>
+
+    <style name="ResetButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_margin</item>
+    </style>
+
+    <style name="ScoreLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">@dimen/team_margin</item>
+        <item name="android:layout_marginRight">@dimen/team_margin</item>
+    </style>
+
+    <style name="View">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+</resources>
