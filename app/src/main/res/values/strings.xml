@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LoLCounter</string>
+    <string name="app_name">League of Legends Score Keeper</string>
     <string name="blue_team">Blue Team</string>
     <string name="score">0</string>
     <string name="kills">Kills</string>
